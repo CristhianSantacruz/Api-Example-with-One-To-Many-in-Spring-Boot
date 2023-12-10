@@ -1,0 +1,22 @@
+use makers;
+INSERT INTO tb_makers(id, name,dni) VALUES(1, 'Asus','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(2, 'Lenovo','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(3, 'Hewlett-Packard','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(4, 'Samsung','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(5, 'Seagate','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(6, 'Crucial','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(7, 'Gigabyte','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(8, 'Huawei','0954625306');
+INSERT INTO tb_makers(id, name,dni) VALUES(9, 'Xiaomi','0954625306');
+
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(1, 'Disco duro SATA3 1TB', 86.99, 5);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(2, 'Memoria RAM DDR4 8GB', 120, 6);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(3, 'Disco SSD 1 TB', 150.99, 4);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(4, 'GeForce GTX 1050Ti', 185, 7);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(5, 'GeForce GTX 1080 Xtreme', 755, 6);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(6, 'Monitor 24 LED Full HD', 202, 1);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(7, 'Monitor 27 LED Full HD', 245.99, 1);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(8, 'Portátil Yoga 520', 559, 2);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(9, 'Portátil Ideapd 320', 444, 2);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(10, 'Impresora HP Deskjet 3720', 59.99, 3);
+INSERT INTO tb_products(id, name, price, maker_forkey) VALUES(11, 'Impresora HP Laserjet Pro M26nw', 180, 3);
